@@ -1,4 +1,4 @@
-\# Lezione 1 
+\# Lezione 1
 
 
 
@@ -8,49 +8,53 @@ Questo progetto contiene il lavoro fatto durante \*\*la prima lezione\*\*.
 
 \## Cosa abbiamo usato finora
 
-&nbsp;
 
-\- \*\*Scene\*\* per organizzare il progetto.  
 
-\- \*\*TileMapLayer\*\* per costruire il livello.  
+\- \*\*Scene\*\* per organizzare il progetto  
 
-\- \*\*Input Mapper\*\* per gestire i comandi. 
+\- \*\*TileMapLayer\*\* per costruire il livello  
 
-\- \*\*Nodi vari\*\*: audio, animazione, fisica.  
+\- \*\*Input Mapper\*\* per gestire i comandi  
+
+\- \*\*Nodi vari\*\*: audio, animazione, fisica  
 
 \- \*\*Layer fisici\*\* per definire collisioni e categorie (Collision Mask e Collision Layers)  
 
-\- \*\*Script\*\* per controllare logica e comportamento.
+\- \*\*Script\*\* per controllare logica e comportamento  
 
 
 
-\## Cosa funziona 
+\## Cosa funziona
 
 
 
-\- Mario collide correttamente con il terreno.  
+\- Mario collide correttamente con il terreno  
 
-\- Si muove in orizzontale.  
+\- Si muove in orizzontale  
 
-\- Salta.  
+\- Salta  
 
-\- La telecamera lo segue mentre si muove nel livello.
+\- La telecamera lo segue mentre si muove nel livello  
 
-\- abbiamo l'iconica musichetta di sottofondo e il suono del salto
-
-
-
-## Compiti per casa
+\- È presente la musichetta di sottofondo e il suono del salto  
 
 
-Prima della prossima lezione è meglio se vi riguardate cosa abbiamo fatto:
 
-provate a modificare qualcosa, replicate i passaggi, sperimentate un po’, cercate su internet. Se non ci rimettete mano rischiate di perdervi alla lezione successiva.
-
-
-Per chi fosse ancora disorientato da Godot: è normale, non è il massimo a livello di usabilità per certe cose, ma col tempo e con tanti video che potete trovare su youtube riuscirete sicuramente a prenderci confidenza.
+\## Compiti per casa
 
 
+
+Prima della prossima lezione è meglio se vi riguardate cosa abbiamo fatto:  
+
+provate a modificare qualcosa, replicate i passaggi, sperimentate un po’, cercate su internet.  
+
+Se non ci rimettete mano rischiate di perdervi alla lezione successiva.
+
+
+
+Per chi fosse ancora disorientato da Godot: è normale.  
+
+Non è sempre intuitivo per certe cose, ma con il tempo e con qualche video su YouTube ci prenderete confidenza.
 
 
 
