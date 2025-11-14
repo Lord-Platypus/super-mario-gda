@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bat2jclmhkpjt"
+path="res://.godot/imported/Mario Jump - QuickSounds.com.mp3-c46dfd22c039a51585354213f81b9680.mp3str"
+
+[deps]
+
+source_file="res://scenes/mario/asset/Mario Jump - QuickSounds.com.mp3"
+dest_files=["res://.godot/imported/Mario Jump - QuickSounds.com.mp3-c46dfd22c039a51585354213f81b9680.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

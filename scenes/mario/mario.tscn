@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=3 uid="uid://dhspqpiosxvxx"]
+
+[ext_resource type="Script" uid="uid://b6ahqr2etuwq7" path="res://scenes/mario/mario.gd" id="1_fclkr"]
+[ext_resource type="Resource" uid="uid://dwv306vqttf02" path="res://scenes/mario/resources/move_config_1.tres" id="2_64n73"]
+[ext_resource type="Texture2D" uid="uid://nv0ake6cmu1u" path="res://scenes/mario/asset/mario.png" id="2_fclkr"]
+[ext_resource type="AudioStream" uid="uid://bat2jclmhkpjt" path="res://scenes/mario/asset/Mario Jump - QuickSounds.com.mp3" id="3_feu2q"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fclkr"]
+radius = 0.6465516
+height = 26.068367
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_feu2q"]
+atlas = ExtResource("2_fclkr")
+region = Rect2(0, 0, 17, 15)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_64n73"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_feu2q")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Mario" type="CharacterBody2D" node_paths=PackedStringArray("animation_controller", "audio_controller")]
+collision_layer = 4
+script = ExtResource("1_fclkr")
+move_config = ExtResource("2_64n73")
+animation_controller = NodePath("AnimatedSprite2D")
+audio_controller = NodePath("AudioStreamPlayer2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(9.280002, 0.6000018)
+shape = SubResource("CapsuleShape2D_fclkr")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_64n73")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_feu2q")
